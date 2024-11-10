@@ -1,0 +1,378 @@
+{
+  "Passives": [
+    {
+      "PassiveName": "CX_Barbarian_Boost",
+      "Act": {
+        "1": {
+          "Spells": ["Target_RecklessAttack"],
+          "ExtraPassives": ["UnarmouredDefence_Barbarian","DangerSense"]
+        },
+        "2": {
+		  "Spells": ["Throw_FrenziedThrow","Target_FrenziedStrike"],
+          "ExtraPassives": ["MindlessRage","FeralInstinct","FightingStyle_GreatWeaponFighting"]
+        },
+        "3": {
+		  "Spells": ["Target_IntimidatingPresence"],
+          "ExtraPassives": ["BrutalCritical","RelentlessRage","Tough"]
+        }
+      }
+    },
+    {
+      "PassiveName": "CX_Cleric_Boost",
+      "Act": {
+        "1": {
+          "Spells": ["Shout_WordOfRadiance","Target_LifeTransference","Projectile_GuidingBolt","Target_InflictWounds","Shout_HealingWord","Target_Bless"],
+          "ExtraPassives": ["ARP_SpellSlot_1_1"]
+        },
+        "2": {
+          "Spells": ["Shout_SpiritGuardians","Shout_BeaconOfHope","Target_HealingWord_Mass"],
+          "ExtraPassives": ["ARP_SpellSlot_3_1","PotentSpellcasting"],
+        },
+        "3": {
+          "Spells": ["Target_GuardianOfFaith","Target_FlameStrike","Target_Contagion","Target_FreedomOfMovement"],
+          "ExtraPassives": ["ARP_SpellSlot_5_1","WarCaster_OpportunitySpell","WarCaster_Bonuses","DiscipleOfLife"],
+        }
+      }
+    },
+    {
+      "PassiveName": "CX_Fighter_Boost",
+      "Act": {
+        "1": {
+          "Spells": ["Target_DistractingStrike","Target_PushingAttack","Target_FeintingAttack"],
+          "ExtraPassives": ["Riposte","FightingStyle_GreatWeaponFighting","FightingStyle_TwoWeaponFighting","FightingStyle_Protection","FightingStyle_Dueling"]
+		},
+		"2": {
+		  "Spells": ["Target_GoadingAttack"]
+          "ExtraPassives": ["MageSlayer_Advantage","MageSlayer_AttackCaster"]
+        },
+        "3": {
+          "Spells": ["Target_TripAttack","Zone_SweepingAttack"],
+          "ExtraPassives": ["Indomitable","ImprovedCombatSuperiority","HeavyArmorMaster"]
+        }
+      }
+    },
+    {
+      "PassiveName": "CX_Monk_Boost",
+      "Act": {
+        "3": {
+          "Spells": ["Target_WaterWhip","Projectile_FangsOfTheFireSnake","Zone_Thunderwave_Monk","Target_FistOfUnbrokenAir"]
+        }
+      }
+    },
+    {
+      "PassiveName": "CX_Paladin_Boost",
+      "Act": {
+        "1": {
+          "Spells": ["Target_Smite_Thunderous","Target_Smite_Wrathful","Target_Smite_Searing","Target_Smite_Divine","Shout_DivineFavor"]
+        },
+		 "2": {
+          "ExtraPassives": ["FightingStyle_GreatWeaponFighting","FightingStyle_TwoWeaponFighting","FightingStyle_Protection","FightingStyle_Dueling"]
+        },
+        "3": {
+          "Spells": ["Target_Smite_Blinding","Shout_CrusadersMantle"],
+          "ExtraPassives": ["ImprovedDivineSmite","PolearmMaster_AttackOfOpportunity","PolearmMaster_BonusAttack"]
+        }
+      }
+    },
+    {
+      "PassiveName": "CX_Ranger_Boost",
+      "Act": {
+        "1": {
+          "Spells": ["Shout_ZephyrStrike","Target_HuntersMark","Projectile_HailOfThorns"],
+          "ExtraPassives": ["FightingStyle_Archery","FightingStyle_Defense"]
+        },
+        "2": {
+		  "Spells": ["Target_MistyStep","Target_SpikeGrowth"],
+          "ExtraPassives": ["MultiattackDefense"]
+        },
+        "3": {
+          "Spells": ["Shout_HideInPlainSight","Target_Volley","Shout_Whirlwind","Projectile_LightningArrow"]
+        }
+      }
+    },
+    {
+      "PassiveName": "CX_Rogue_Boost",
+      "Act": {
+        "1": {
+          "Spells": ["Projectile_SneakAttack","Target_SneakAttack"],
+          "ExtraPassives": ["UncannyDodge"]
+        },
+        "2": {
+          "ExtraPassives": ["FastHands","Evasion","FightingStyle_Dueling","FightingStyle_TwoWeaponFighting"]
+        },
+        "3": {
+          "ExtraPassives": ["ReliableTalent","Lucky","Lucky_Unlock"]
+        }
+      }
+    },
+    {
+      "PassiveName": "CX_Spells_L1",
+      "Spells": ["Target_LightningLure","Target_Frostbite","Target_GreenFlameBlade","Target_TollTheDead","Zone_FrostFingers","Shout_EarthTremor","Zone_TashasCausticBrew","Projectile_IceKnife","Projectile_MagicMissile","Projectile_RayOfSickness","Zone_Thunderwave","Projectile_ChromaticOrb"],
+      "ExtraSpellSlots": ["1","0","0","0","0","0"]
+    },
+    {
+      "PassiveName": "CX_Spells_L2",
+      "Spells": ["Target_WitherAndBloom","Zone_AganazzarsScorcher","Target_MindSpike","Target_SnillocsSnowballStorm","Projectile_AcidArrow","Projectile_ScorchingRay","Target_CloudOfDaggers","Zone_GustOfWind","Target_Shatter"],
+      "ExtraSpellSlots": ["1","1","0","0","0","0"]
+    },
+    {
+      "PassiveName": "CX_Spells_L3",
+      "Spells": ["Target_EruptingEarth","Projectile_Fireball","Target_CallLightning"],
+      "ExtraSpellSlots": ["0","1","1","0","0","0"]
+    },
+    {
+      "PassiveName": "CX_Spells_L4",
+      "Spells": ["Projectile_RaulothimsPsychicLance","Target_Blight","Target_IceStorm"],
+      "ExtraSpellSlots": ["0","0","1","1","0","0"]
+    },
+    {
+      "PassiveName": "CX_Spells_L5",
+      "Spells": ["Target_SteelWindStrike","Projectile_NegativeEnergyFlood","Target_Cloudkill","Zone_ConeOfCold"],
+      "ExtraSpellSlots": ["0","0","0","1","1","0"]
+    },
+    {
+      "PassiveName": "CX_Spells_L6",
+      "Spells": ["Target_CircleOfDeath","Zone_Sunbeam","Target_FreezingSphere"],
+      "ExtraSpellSlots": ["0","0","0","0","1","1"]
+    },
+    {
+      "PassiveName": "CX_Spells_L1C",
+      "Spells": ["Target_Bane"]
+    },
+    {
+      "PassiveName": "CX_Spells_L2C",
+      "Spells": ["Target_MaximiliansEarthenGrasp","Target_HoldPerson","Target_Silence"]
+    },
+    {
+      "PassiveName": "CX_Spells_L3C",
+      "Spells": ["Zone_Fear","Target_Slow"]
+    },
+    {
+      "PassiveName": "CX_Spells_L4C",
+      "Spells": ["Target_Banishment"]
+    },
+    {
+      "PassiveName": "CX_Spells_L5C",
+      "Spells": ["Throw_Telekinesis"]
+    },
+    {
+      "PassiveName": "CX_Spells_L6C",
+      "Spells": ["Target_FleshToStone"]
+    }
+  ],
+
+"Overrides": {
+    "S_HAG_ForestIllusion_Redcap_01_ff840420-d46a-4837-868b-ac02f45e4586": {
+      "HealthOverride": 35
+    },
+    "S_HAG_ForestIllusion_Redcap_02_2b08981e-5cb0-496d-98cf-15e6a92121ec": {
+      "HealthOverride": 58
+    },
+    "S_HAG_ForestIllusion_Redcap_03_14026955-2546-4d31-bc0c-4bfe0c34bd8a": {
+      "HealthOverride": 35
+    },
+    "S_HAG_ForestIllusion_Redcap_04_30a871b1-9df3-42bb-87cb-c284cafd32eb": {
+      "HealthOverride": 58
+    },
+    "S_WYR_SkeletalDragon_67770922-5e0a-40c5-b3f0-67e8eb50493a": {
+      "HealthOverride": 600
+    },
+    "S_UND_KethericCity_AdamantineGolem_2a5997fc-5f2a-4a13-b309-bed16da3b255": {
+      "HealthOverride": 450
+    },
+	"S_LOW_Lorroakan_a9d4b71d-b0ef-429e-8210-6dc8be986ee9": {
+      "Passives": ["ControlledChaos","ArmyArcana","TempestuousMagic","MAG_PHB_OfRegeneration_Ring_Passive","﻿ARP_SpellSlot_6_1","SpellSniper_Critical","Alert","WarCaster_Bonuses","WarCaster_OpportunitySpell","Tough","ElementalAdept_Acid","ElementalAdept_Cold","ElementalAdept_Fire","ElementalAdept_Lightning","ElementalAdept_Thunder","MageSlayer_BreakConcentration","MageSlayer_Advantage"],
+      "Spells": ["Zone_Sunbeam","Projectile_CursedTome_CurriculumofStrategy","Projectile_CursedTome_Dethrone"]
+    },
+	"S_GOB_Warlock_d432aafd-f728-4d9d-9707-732e1cdd8297": {
+      "Passives": ["AgonizingBlast","RepellingBlast","DiscipleOfLife","DevilsSight","CX_Cleric_Boost","ARP_SpellSlot_1_6","ARP_SpellSlot_2_5","ARP_SpellSlot_3_4","ARP_SpellSlot_4_3","ARP_SpellSlot_5_2","ARP_SpellSlot_6_1"],
+	  "Spells": ["Projectile_EldritchBlast","Target_HealingWord","Target_Darkness","Target_Crown6OfMadness","Target_Invisibility_Greater","Target_BlackTentacles","Target_Confusion","Shout_HealingWord_Mass","Zone_ConeOfCold","Target_Cloudkill","Projectile_ScorchingRay","Target_Counterspell","Projectile_Fireball"],
+	  "HealthOverride": 100
+	},
+	"S_SHA_Necromancer_Ghoul_001_1ffb5583-7595-42d1-a985-903b2717be6a": {
+	  "Passives": ["ARP_SpellSlot_1_1","ARP_SpellSlot_2_1","ARP_SpellSlot_3_1"],
+	  "Spells": ["Target_HealingWord","Shout_HealingWord_Mass","Target_Sanctuary"]
+	},
+	"S_SHA_Necromancer_Ghoul_000_b8584c3f-2ed8-44ff-9831-7d6fb2115516": {
+	  "Passives": ["ARP_SpellSlot_1_1","ARP_SpellSlot_2_1","ARP_SpellSlot_3_1"],
+	  "Spells": ["Target_HealingWord","Shout_HealingWord_Mass","Target_Sanctuary"]
+	},
+	"S_SHA_Necromancer_Ghoul_002_bad9126a-1674-4969-9fb5-7df8c69e76e4": {
+	  "Passives": ["ARP_SpellSlot_1_1","ARP_SpellSlot_2_1","ARP_SpellSlot_3_1"],
+	  "Spells": ["Target_HealingWord","Shout_HealingWord_Mass","Target_Sanctuary"]
+	},
+	"S_LOW_HouseOfHope_RaphaelCambion04_25c6573c-acb8-437f-9fcf-81a80c56f540": {
+      "Passives": ["Lifedrinker","Goon_Increased_Scale_1","DevilsSight"]
+    },
+	"S_LOW_HouseOfHope_RaphaelCambion02_3164499e-24cd-4417-baca-5f057b4d9518": {
+      "Passives": ["Lifedrinker","DevilsSight","Mobile_PassiveBonuses","MageSlayer_BreakConcentration"]
+    },
+	"S_LOW_HouseOfHope_RaphaelCambion01_4535facb-487c-4ab8-82e2-0f28558a7d16": {
+      "Passives": ["Lifedrinker","DevilsSight"]
+    },
+	"S_LOW_HouseOfHope_RaphaelCambion03_abc96d0e-846e-4986-ae72-39befabb128b": {
+      "Passives": ["Lifedrinker","RageUnlock","DevilsSight","ARP_Rage_2","ARP_BonusActionPoint","WildMagicRage"],
+	  "Spells": ["Shout_Rage_WildMagic"]
+    },
+	"S_LOW_HouseOfHope_RaphaelCambion06_c9c4475f-a2e7-43d6-8df9-de081fef3f89": {
+      "Passives": ["Lifedrinker","DevilsSight","WildMagic","WarCaster_OpportunitySpell","WarCaster_Bonuses","ARP_SpellSlot_1_3","ARP_SpellSLot_2_3"],
+	  "Spells": ["Target_Smite_Blinding","Target_Smite_Divine","Target_Smite_Searing","Target_Smite_Thunderous","Target_Smite_Wrathful"]
+    },
+	"S_LOW_HouseOfHope_RaphaelCambion05_f7b77fc8-d732-4cf7-a541-34d16ad01dc6": {
+      "Passives": ["Lifedrinker","RageUnlock","DevilsSight","Mobile_PassiveBonuses","ARP_Rage_2","WildMagicRage"],
+	  "Spells": ["Shout_Rage_Totem_Bear"]
+	},
+    "S_END_MindBrain_f8bb04a3-22e5-41b0-aed7-5dcf852343d1": {
+      "Passives": ["Tough","Alert"],
+      "HealthOverride": 500
+    }
+  },
+	
+  "Health": {
+    "Allies": {
+	  "HealthMultiplier": 0,
+      "StaticBoost": 0.25,
+      "HealthPerLevel": 0.0625
+	},
+    "Bosses": {
+      "HealthMultiplier": 0,
+      "StaticBoost": 0.2,
+      "HealthPerLevel": 0.050
+    },
+    "Enemies": {
+      "HealthMultiplier": 0,
+      "StaticBoost": 0.2,
+      "HealthPerLevel": 0.050
+    }
+  },
+  "Damage": {
+    "Allies": {},
+    "Bosses": {
+      "StaticDamageBoost": 1,
+      "DamagePerIncrement": 1,
+      "LevelIncrement": 2
+    },
+    "Enemies": {
+      "StaticDamageBoost": 2,
+      "DamagePerIncrement": 1,
+      "LevelIncrement": 3
+    }
+  },
+  "ArmourClass": {
+    "Allies": {
+	  "StaticBoost": 0,
+      "BoostPerIncrement": 1,
+      "LevelIncrement": 4
+	},
+    "Bosses": {
+      "StaticBoost": 0,
+      "BoostPerIncrement": 1,
+      "LevelIncrement": 3
+    },
+    "Enemies": {
+      "StaticBoost": 0,
+      "BoostPerIncrement": 1,
+      "LevelIncrement": 4
+    }
+  },
+  "SpellSaveDC": {
+    "Allies": {
+	  "StaticBoost": 0,
+      "BoostPerIncrement": 1,
+      "LevelIncrement": 4
+	},
+    "Bosses": {
+      "StaticBoost": 0,
+      "BoostPerIncrement": 1,
+      "LevelIncrement": 4
+    },
+    "Enemies": {
+      "StaticBoost": 0,
+      "BoostPerIncrement": 1,
+      "LevelIncrement": 4
+    }
+  },
+  "AbilityPoints": {
+    "Allies": {
+	  "StaticBoost": 1,
+      "BoostPerIncrement": 1,
+      "LevelIncrement": 4
+	},
+    "Bosses": {
+      "StaticBoost": 1,
+      "BoostPerIncrement": 1,
+      "LevelIncrement": 3
+    },
+    "Enemies": {
+      "StaticBoost": 1,
+      "BoostPerIncrement": 1,
+      "LevelIncrement": 4
+    }
+  },
+  "Movement": {
+    "Allies": {},
+    "Bosses": {
+      "StaticBoost": 0
+    },
+    "Enemies": {
+      "StaticBoost": 0
+    }
+  },
+  "ExtraAction": {
+    "Allies": {},
+    "Bosses": {
+      "Action": {
+        "Additional": 0
+      },
+      "BonusAction": {
+        "Additional": 0
+      }
+    },
+    "Enemies": {
+      "Action": {
+        "Additional": 0
+      },
+      "BonusAction": {
+        "Additional": 0
+      }
+    }
+  },
+  "Rolls": {
+    "Allies": {
+	  "Attack": {
+        "StaticRollBonus": 0,
+        "RollBonusPerIncrement": 1,
+        "LevelIncrement": 6
+      },
+      "SavingThrow": {
+        "StaticRollBonus": 0,
+        "RollBonusPerIncrement": 1,
+        "LevelIncrement": 6
+      }
+	},
+    "Bosses": {
+      "Attack": {
+        "StaticRollBonus": 0,
+        "RollBonusPerIncrement": 1,
+        "LevelIncrement": 3
+      },
+      "SavingThrow": {
+        "StaticRollBonus": 0,
+        "RollBonusPerIncrement": 1,
+        "LevelIncrement": 3
+      }
+    },
+    "Enemies": {
+      "Attack": {
+        "StaticRollBonus": 0,
+        "RollBonusPerIncrement": 1,
+        "LevelIncrement": 6
+      },
+      "SavingThrow": {
+        "StaticRollBonus": 0,
+        "RollBonusPerIncrement": 1,
+        "LevelIncrement": 6
+      }
+    }
+  }
+}
