@@ -13,7 +13,7 @@ Rebalance - Cantrips:
 
 Rebalance - Level 1 Spells:
 - Added levlemaps for Witchbolt
-- Sleep and Colour Spray: I made my own changes to have the health threshold scale off proficiency bonus, and changed sleep to only target 2 circles instead of 3. You'll have to add the upcast versions for the original mod yourself
+- Sleep and Colour Spray: I made my own changes to have the health threshold scale off proficiency bonus instead of being flat numbers. At early levels the health threshold should be the same as the original mod but will obviously be higher as you gain levels. I also changed Sleep to only target 2 circles instead of 3. If you don't wanna use my dumb changes you'll have to add the upcast versions for the original mod yourself
 
 Rebalance - Level 3 Spells:
 - Hunger of Hadar: entirely removed Syrchalis' changes to the spell in my own file. You'll have to add the upcasts yourself
