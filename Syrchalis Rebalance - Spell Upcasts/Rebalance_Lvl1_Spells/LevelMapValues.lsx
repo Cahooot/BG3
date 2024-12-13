@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="8" build="612"/>
+    <region id="LevelMapValues">
+        <node id="root">
+            <children>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="2d6"/>
+                    <attribute id="Level2" type="LSString" value="2d6"/>
+                    <attribute id="Level3" type="LSString" value="2d6"/>
+                    <attribute id="Level4" type="LSString" value="3d6"/>
+                    <attribute id="Level5" type="LSString" value="3d6"/>
+                    <attribute id="Level6" type="LSString" value="3d6"/>
+                    <attribute id="Level7" type="LSString" value="4d6"/>
+                    <attribute id="Level8" type="LSString" value="4d6"/>
+                    <attribute id="Level9" type="LSString" value="4d6"/>
+                    <attribute id="Level10" type="LSString" value="5d6"/>
+                    <attribute id="Level11" type="LSString" value="5d6"/>
+                    <attribute id="Level12" type="LSString" value="5d6"/>
+                    <attribute id="Level13" type="LSString" value="6d6"/>
+                    <attribute id="Level14" type="LSString" value="6d6"/>
+                    <attribute id="Level15" type="LSString" value="6d6"/>
+                    <attribute id="Level16" type="LSString" value="7d6"/>
+                    <attribute id="Level17" type="LSString" value="7d6"/>
+                    <attribute id="Level18" type="LSString" value="7d6"/>
+                    <attribute id="Level19" type="LSString" value="8d6"/>
+                    <attribute id="Level20" type="LSString" value="8d6"/>
+                    <attribute id="Name" type="FixedString" value="SYR_Witchbolt"/>
+                    <attribute id="UUID" type="guid" value="557ad272-246f-4402-be19-ec124e8ae666"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
