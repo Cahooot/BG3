@@ -12,7 +12,7 @@
   <content contentuid="h322862cdgbab5g882fgc355g259dd3fd6c81" version="1">Astral Drifter</content>
   <content contentuid="h8763db21g731dg5c25g731fgcf7c20562247" version="1">Astral Drifter</content>
   <content contentuid="h8b2f4026g46d4ge64eg683cged54a26030c7" version="1">For longer than you can remember, you have traversed the Astral Sea. There, you experienced firsthand the wonders of the Silver Void: you stopped aging. In your travels, you have camped on the petrified hulks of dead gods and you crossed paths with a wandering deity.</content>
-  <content contentuid="he8b29522g64d7ge617g6a3bgb48e3cc8ce06" version="2">You have &amp;lt;LSTag Tooltip="Proficiency"&amp;gt;Proficiency&amp;lt;/LSTag&amp;gt; in &amp;lt;LSTag Tooltip="Insight"&amp;gt;Insight&amp;lt;/LSTag&amp;gt; and &amp;lt;LSTag Tooltip="Religion"&amp;gt;Religion&amp;lt;/LSTag&amp;gt;.</content>
+  <content contentuid="he8b29522g64d7ge617g6a3bgb48e3cc8ce06" version="2">You gain &amp;lt;LSTag Tooltip="Proficiency"&amp;gt;Proficiency&amp;lt;/LSTag&amp;gt; in &amp;lt;LSTag Tooltip="Insight"&amp;gt;Insight&amp;lt;/LSTag&amp;gt; and &amp;lt;LSTag Tooltip="Religion"&amp;gt;Religion&amp;lt;/LSTag&amp;gt;.</content>
   <content contentuid="h95400c63gfbc2g33d4gb7edg1474d5c7dcde" version="1">Divine Contact</content>
   <content contentuid="hb0afa464g5234ge051g9f73g148aebbb3cde" version="1">In the Astral Sea, you crossed paths with a wandering deity. The encounter was brief and nonviolent, yet it made a lasting impression on you. This deity saw fit to share one secret or obscure bit of cosmic lore with you.</content>
   <content contentuid="h1fbfea32g6188gb001g16e1g5ce3d640b0a5" version="1">In the Astral Sea, you crossed paths with a wandering deity. The encounter was brief and nonviolent, yet it made a lasting impression on you. This deity saw fit to share one secret or obscure bit of cosmic lore with you.</content>
@@ -25,7 +25,7 @@
   <content contentuid="hb7502cd0ge4daga038g03cbg6e35867cf4d8" version="23">Wildspacer</content>
   <content contentuid="haa7873b4g83fcga854g93e5gce1be533036f" version="1">Wildspacer</content>
   <content contentuid="he9a2d11bga7f7gf42bg98d5ga03f231fe2b3" version="1">You were raised in the void of Wildspace, home to asteroid miners, moon farmers, and other hardy folk. You spent your early years on the crew of a spelljamming ship, performing helpful chores such as swabbing the deck, loading and offloading cargo, and scraping barnacles off the hull.</content>
-  <content contentuid="h8c3ad9beg67f3gd301g2edbg4aa980a73bbc" version="2">You have &amp;lt;LSTag Tooltip="Proficiency"&amp;gt;Proficiency&amp;lt;/LSTag&amp;gt; in &amp;lt;LSTag Tooltip="Athletics"&amp;gt;Athletics&amp;lt;/LSTag&amp;gt; and &amp;lt;LSTag Tooltip="Survival"&amp;gt;Survival&amp;lt;/LSTag&amp;gt;.</content>
+  <content contentuid="h8c3ad9beg67f3gd301g2edbg4aa980a73bbc" version="2">You gain &amp;lt;LSTag Tooltip="Proficiency"&amp;gt;Proficiency&amp;lt;/LSTag&amp;gt; in &amp;lt;LSTag Tooltip="Athletics"&amp;gt;Athletics&amp;lt;/LSTag&amp;gt; and &amp;lt;LSTag Tooltip="Survival"&amp;gt;Survival&amp;lt;/LSTag&amp;gt;.</content>
   <content contentuid="h8b023e16g66ddg06bdg619ega47c53b1b8d9" version="1">Wildspace Adaptation</content>
   <content contentuid="h31555400g4792gb507gbb03g25e3fc3e8897" version="2">You have gained experience from your time in space and have learned to adapt to any gravity.</content>
   <content contentuid="h45f05b33geaaeg08d5g801cg20c0d65790d1" version="1">You have gained experience from your time in space and have learned to adapt to any gravity.</content>
@@ -602,7 +602,7 @@
   <content contentuid="hbb3421beg81c5g3071gf9e0gd20ba5277ab7" version="1">Spelljamming Slot</content>
   <content contentuid="h41c7b9c9g1ccage314g466ag7dcd6181e80f" version="1">Allows you to use your Ship's Equipments from the ground.</content>
   <content contentuid="hc4373deeg65b6gd9c1g2661g64412f4bc251" version="3">Allows you to use your Ship's Equipment remotely.</content>
-  <content contentuid="h368c48f1g712fgb334g8e8fg47422b4abeb0" version="1">However, you need to own a Spelljamming Ship and have it equipped with an Equipment. Otherwise the spell will be of no use.</content>
+  <content contentuid="h368c48f1g712fgb334g8e8fg47422b4abeb0" version="1">However, you need to own a Spelljamming Ship and have it equipped with a piece of Equipment. Otherwise the spell will be of no use.</content>
   <content contentuid="h6e7f03aag3af7gb5b0g622ag19ea7e6e0bfd" version="2">You must resynchronize with your Spelljamming Helm to reuse its weapons.</content>
   <content contentuid="hb10c06e7g6c78gb747gcd05g9850301142e9" version="1">A title deed from the Astral Plane.</content>
   <content contentuid="h094bce77g38cdg00f9ge343g226eb397c371" version="11">A title deed from space.</content>
@@ -690,8 +690,8 @@
   <content contentuid="heab1e6d3gd906g6ba7g4b66gcb7798e265e3" version="2">Summon duplicates that looks just like the caster.</content>
   <content contentuid="hace9497dg8b23gb039g49cdg112e1f4d7de8" version="1">Summon duplicates that looks just like the caster.</content>
   <content contentuid="h32f18181g4bafg9410g8e14g520e8bfa2d07" version="1">Wildspace Orrery</content>
-  <content contentuid="h311f2d86g2f93g0d17g5429g27db07e00fd7" version="2">Having this item in inventory grants you its magical effect.</content>
-  <content contentuid="h36d1c074g44dfgfae0g4f1eg2dd3a7d9d60d" version="1">You have a Proficienty bonus in Nature and Perception.</content>
+  <content contentuid="h311f2d86g2f93g0d17g5429g27db07e00fd7" version="2">Having this item in your inventory grants you its magical effect.</content>
+  <content contentuid="h36d1c074g44dfgfae0g4f1eg2dd3a7d9d60d" version="1">You gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in Nature and Perception.</content>
   <content contentuid="h931831bagdb4ag58bfgd29dg08e838965c67" version="7">Charm of Air Bubbles</content>
   <content contentuid="hc9f60dc9gd341g2907gd91bgb9115368e2cc" version="4">Charm of Instant Tools</content>
   <content contentuid="h2f8ca464g6834g2a20g7e91g219358e926c6" version="4">Consume</content>
