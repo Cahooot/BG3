@@ -65,7 +65,7 @@
   },
   "AbilityPoints": {
     "Allies": {
-      "StaticBoost": 1,
+      "StaticBoost": 2,
       "BoostPerIncrement": 1,
       "LevelIncrement": 4
     },
@@ -75,7 +75,7 @@
       "LevelIncrement": 3
     },
     "Enemies": {
-      "StaticBoost": 1,
+      "StaticBoost": 2,
       "BoostPerIncrement": 1,
       "LevelIncrement": 4
     }
@@ -188,7 +188,8 @@
         },
         "2": {
           "ExtraPassives": [
-            "DefensiveDuellist",
+            "DefensiveDuelist",
+            "DefensiveDuelist_Precision",
             "DualWielder_PassiveBonuses",
             "DualWielder_BonusAC",
             "PolearmMaster_AttackOfOpportunity",
@@ -249,7 +250,7 @@
             "RelentlessRage",
             "Mobile_PassiveBonuses",
             "Durable",
-            "SYR_DeadlyAlacrity",
+            "SYR_Feat_DeadlyAlacrity_Passive",
             "RR_Berserker_Rush_Passive",
             "RR_Iron_Heart_Passive",
             "RR_Berserker_Heart_Passive",
@@ -327,7 +328,8 @@
             "Target_PhantasmalForce",
             "Target_HealingWord",
             "Target_Shatter",
-            "Target_StinkingCloud"
+            "Target_StinkingCloud",
+            "Target_Antagonize"
           ],
           "ExtraPassives": [
             "ARP_BardicInspiration_1",
@@ -348,7 +350,7 @@
           "ExtraPassives": [
             "Lucky",
             "Lucky_Unlock",
-            "SYR_WarMagic",
+            "SYR_Feat_WarMagic_AltSpell_Passive",
             "SS_MaestroPrecision",
             "SS_SpotlightEmbrace",
             "SS_QuickbladeGrace"
@@ -363,6 +365,7 @@
             "Target_Persuade_NPC"
           ],
           "ExtraPassives": [
+            "Actor",
             "SS_CharismaticFocus",
             "SS_MarvelousEscape",
             "SS_SoulfulHarmony",
@@ -410,8 +413,7 @@
             "ShieldMaster_PassiveBonuses",
             "MAG_MaximizedHealCleric_Passive",
             "MAG_ClericMovementHeal_Passive",
-            "Crusade_NonMagical_Resistance_Passive",
-            "SoH_AoE_Heal"
+            "Crusade_NonMagical_Resistance_Passive"
           ]
         },
         "3": {
@@ -432,7 +434,7 @@
             "WarGodsBlessing",
             "MediumArmorMaster",
             "HeavyArmorMaster",
-            "SYR_WarMagic",
+            "SYR_Feat_WarMagic_AltSpell_Passive",
             "MAG_AlignmentsWrath_Passive",
             "MAG_ClericPrayerExplosion_Passive",
             "MAG_SharedFortitude_Passive",
@@ -462,7 +464,9 @@
         "2": {
           "Spells": [
             "Target_CallLightning",
-            "Target_IceStorm"
+            "Target_IceStorm",
+            "Target_SummonElemental",
+            "Target_SummonFey"
           ],
           "ExtraPassives": [
             "WildStrike",
@@ -476,6 +480,7 @@
           "Spells": [
             "Target_InsectPlague",
             "Target_Heal",
+            "Shout_CrownOfStars",
             "Target_Find_Weak_Spot_Survival_NPC"
           ],
           "ExtraPassives": [
@@ -544,9 +549,12 @@
             "Target_HaloOfSpores",
             "Target_ChillTouch",
             "Target_Blindness",
+            "Projectile_LarlochsMinorDrain",
             "Target_AnimateDead_NPC"
           ],
-          "ExtraPassives": []
+          "ExtraPassives": [
+            "GG_Three_PoisonResist_Passive"
+          ]
         },
         "2": {
           "Spells": [
@@ -587,7 +595,6 @@
           ],
           "ExtraPassives": [
             "ExtraAttack",
-            "Riposte",
             "Charger",
             "HeavyArmorMaster",
             "MageSlayer_Advantage",
@@ -610,10 +617,11 @@
             "Athlete_PassiveBonuses",
             "Athlete_StandUp",
             "SavageAttacker",
-            "SYR_DeadlyAlacrity",
+            "SYR_Feat_DeadlyAlacrity_Passive",
             "MAG_Fighter_ActionSurge_AttackBonus_Gloves_Passive",
             "MM_Unbreakable_Stance_Passive",
             "MM_CriticalThinking_Passive",
+            "MM_ChampionSurge_Passive",
             "ARA_Cloak_BullStrength"
           ]
         }
@@ -644,7 +652,9 @@
           ],
           "ExtraPassives": [
             "ARP_SuperiorityDie_2",
-            "ImprovedCombatSuperiority"
+            "ImprovedCombatSuperiority",
+            "MartialAdept",
+            "MM_Unflinching_Passive"
           ]
         }
       }
@@ -657,7 +667,10 @@
             "Target_BoomingBlade",
             "Target_GreenFlameBlade",
             "Projectile_RayOfFrost",
-            "Zone_Thunderwave"
+            "Target_LightningLure",
+            "Zone_Thunderwave",
+            "Zone_BurningHands",
+            "Teleportation_ThunderStep"
           ],
           "ExtraPassives": [
             "BattlemageCasting"
@@ -672,7 +685,10 @@
           "ExtraPassives": [
             "ExtraAttack_EK",
             "EmpoweredCantrips",
-            "WarMagic_EK"
+            "WarMagic_EK",
+            "MageSlayer_Advantage",
+            "MageSlayer_BreakConcentration",
+            "WW_GainArcaneAcuityOnDamage_Passive"
           ]
         },
         "3": {
@@ -680,12 +696,14 @@
             "Zone_Fear",
             "Target_Antagonize",
             "Shout_AshardalonsStride",
-            "Zone_LightningBolt"
+            "Zone_LightningBolt",
+            "Projectile_RaulothimsPsychicLance"
           ],
           "ExtraPassives": [
             "ExtraAttack_2_EK",
             "EldritchStrike",
-            "ImprovedWarMagic_EK"
+            "ImprovedWarMagic_EK",
+            "ARA_Cloak_ToSpellAttack_Passive"
           ]
         }
       }
@@ -858,8 +876,8 @@
             "Sentinel_Attack",
             "Sentinel_ZeroSpeed",
             "WarCaster_Bonuses",
-            "SYR_WarMagic",
-            "SYR_DeadlyAlacrity",
+            "SYR_Feat_WarMagic_AltSpell_Passive",
+            "SYR_Feat_DeadlyAlacrity_Passive",
             "OO_DivineResilience_Passive",
             "OO_EmboldenedSmite_Passive",
             "OO_SmitePerfection_Passive"
@@ -963,7 +981,7 @@
             "CrossbowExpert_Wounding",
             "MediumArmorMaster",
             "Mobile_PassiveBonuses",
-            "SYR_LightArmorMaster",
+            "SYR_Feat_LightArmorMaster_Passive",
             "BB_Deadeye_Passive"
           ]
         },
@@ -981,7 +999,7 @@
             "Mobile_CounterAttackOfOpportunity",
             "Mobile_DashAcrossDifficultTerrain",
             "Mobile_PassiveBonuses",
-            "SYR_DeadlyAlacrity",
+            "SYR_Feat_DeadlyAlacrity_Passive",
             "BB_Elusive_Serpent_Dodge_Passive",
             "ARA_Cloak_ToRangedAttack_Passive"
           ]
@@ -1058,7 +1076,7 @@
             "SneakAttack_Unlock",
             "UncannyDodge",
             "Mobile_PassiveBonuses",
-            "SYR_LightArmorMaster"
+            "SYR_Feat_LightArmorMaster_Passive"
           ]
         },
         "2": {
@@ -1070,7 +1088,7 @@
             "Evasion",
             "Mobile_DashAcrossDifficultTerrain",
             "Mobile_CounterAttackOfOpportunity",
-            "SYR_DeadlyAlacrity",
+            "SYR_Feat_DeadlyAlacrity_Passive",
             "ImprovedCritical",
             "VV_EmbraceShadows_Passive",
             "VV_PhantomMark_Passive"
@@ -1089,7 +1107,7 @@
             "Lucky",
             "Lucky_Unlock",
             "SavageAttacker",
-            "SYR_ThiefsApprentice",
+            "SYR_Feat_ThiefsApprentice_Passive",
             "VV_OpeningGambit_Passive",
             "VV_SubtleBlade_Passive",
             "VV_Bloodletter_Passive",
@@ -1196,7 +1214,7 @@
             "ThirstingBlade_Check",
             "EntropicWard",
             "MistyEscape",
-            "SYR_WarMagic",
+            "SYR_Feat_WarMagic_AltSpell_Passive",
             "PP_WhispersOfVoid_Passive",
             "PP_PactEmpoweredAim_Passive",
             "PP_BindingThreads_Passive",
@@ -1280,6 +1298,7 @@
         "2": {
           "Spells": [
             "Projectile_Fireball",
+            "Zone_LightningBolt",
             "Target_IceStorm"
           ],
           "ExtraPassives": [
@@ -1305,6 +1324,7 @@
           "Spells": [
             "Target_ChillTouch",
             "Project_RayOfSickness",
+            "Projectile_LarlochsMinorDrain",
             "Target_Blindness"
           ],
           "ExtraPassives": [
@@ -1324,10 +1344,13 @@
           ]
         },
         "3": {
-          "Spells": [],
+          "Spells": [
+            "Projectile_NegativeEnergyFlood",
+            "Target_CircleOfDeath",
+            "Target_FingerOfDeath"
+          ],
           "ExtraPassives": [
-            "InuredtoUndeath",
-            "Target_CircleOfDeath"
+            "InuredtoUndeath"
           ]
         }
       }
@@ -1488,8 +1511,7 @@
       "PassiveName": "CX_Spells_L5C",
       "Spells": [
         "Throw_Telekinesis",
-        "Target_SynapticStatic",
-        "VBT_Spell_5_AcamarsMaw"
+        "Target_SynapticStatic"
       ]
     },
     {
@@ -2214,9 +2236,6 @@
     },
     "S_PLA_ZhentDungeon_Zhent02_8a064abd-3582-4a32-a9f8-748ad60f63ca": {
       "Passives": [
-        "Goon_Fire_Resistant",
-        "Goon_Force_Resistant",
-        "Goon_Poison_Immune",
         "Goon_Damage_Poison_d4_Attacks",
         "Alert",
         "ARA_Cloak_CatGrace",
@@ -2231,9 +2250,6 @@
     },
     "S_PLA_ZhentDungeon_Zhent03_8f63a70b-93e1-4841-8dea-b1f1542fd3c1": {
       "Passives": [
-        "Goon_Fire_Resistant",
-        "Goon_Force_Resistant",
-        "Goon_Poison_Immune",
         "Goon_Damage_Poison_d4_Attacks",
         "FeralInstinct",
         "ARA_Cloak_ToHit_Passive",
@@ -2248,9 +2264,6 @@
     },
     "S_PLA_ZhentDungeon_Zhent04_50c17970-3683-4417-b4f3-bd1e117e3176": {
       "Passives": [
-        "Goon_Fire_Resistant",
-        "Goon_Force_Resistant",
-        "Goon_Poison_Immune",
         "Goon_Damage_Poison_d4_Attacks",
         "FeralInstinct",
         "ARA_Cloak_ToSpellSave_Passive",
@@ -2265,9 +2278,6 @@
     },
     "S_PLA_ZhentDungeon_Zhent05_356c9a7d-1f9d-4a51-8d9b-6908f16f7b7d": {
       "Passives": [
-        "Goon_Fire_Resistant",
-        "Goon_Force_Resistant",
-        "Goon_Poison_Immune",
         "Goon_Damage_Poison_d4_Attacks",
         "FeralInstinct",
         "ARA_Cloak_DevilsSight_Passive",
@@ -2298,7 +2308,7 @@
         "SunlightSensitivity",
         "MAG_Critical_Force_Critical_Passive",
         "MAG_LowHP_IncreasedSpellDamage_Passive",
-        "NPC_DamageReduction",
+        "NPC_DamageReduction_2",
         "AJ_Emergency_Teleport"
       ],
       "Spells": [
@@ -2780,7 +2790,8 @@
         "ARP_ActionPoint",
         "ARP_BonusActionPoint",
         "Goon_Increased_Weight_Size_Scale_1",
-        "SYR_Alchemist",
+        "SYR_Feat_Alchemist_Passive",
+        "SYR_Feat_Alchemist_Throw_Unlock",
         "FeralInstinct",
         "LOW_BloodMerchant_ExplosiveBlood",
         "MAG_Fire_BonusActionOnFireSpell_Passive",
@@ -3421,7 +3432,7 @@
         "Durable",
         "HeavyArmorMaster",
         "SavageAttacker",
-        "SYR_DeadlyAlacrity",
+        "SYR_Feat_DeadlyAlacrity_Passive",
         "ImmuneToDisarm",
         "ClarifiedMortality",
         "Blindsight",
@@ -3452,7 +3463,7 @@
         "ARP_ChannelOath_1",
         "Goon_Aura_of_Hate_Passive",
         "SpellSniper_Critical",
-        "SYR_DeadlyAlacrity",
+        "SYR_Feat_DeadlyAlacrity_Passive",
         "SavageAttacker",
         "ImmuneToDisarm",
         "ClarifiedMortality",
@@ -3566,7 +3577,7 @@
         "MageSlayer_AttackCaster",
         "PolearmMaster_AttackOfOpportunity",
         "PolearmMaster_BonusAttack",
-        "SYR_DeadlyAlacrity",
+        "SYR_Feat_DeadlyAlacrity_Passive",
         "FightingStyle_GreatWeaponFighting",
         "FightingStyle_Protection",
         "MM_StalwartDefense_Passive",
@@ -3594,7 +3605,7 @@
         "MageSlayer_AttackCaster",
         "PolearmMaster_AttackOfOpportunity",
         "PolearmMaster_BonusAttack",
-        "SYR_DeadlyAlacrity",
+        "SYR_Feat_DeadlyAlacrity_Passive",
         "FightingStyle_GreatWeaponFighting",
         "FightingStyle_Protection",
         "MM_StalwartDefense_Passive",
@@ -3622,7 +3633,7 @@
         "MageSlayer_AttackCaster",
         "PolearmMaster_AttackOfOpportunity",
         "PolearmMaster_BonusAttack",
-        "SYR_DeadlyAlacrity",
+        "SYR_Feat_DeadlyAlacrity_Passive",
         "FightingStyle_GreatWeaponFighting",
         "FightingStyle_Protection",
         "MM_StalwartDefense_Passive",
@@ -3649,7 +3660,7 @@
         "MageSlayer_AttackCaster",
         "PolearmMaster_AttackOfOpportunity",
         "PolearmMaster_BonusAttack",
-        "SYR_DeadlyAlacrity",
+        "SYR_Feat_DeadlyAlacrity_Passive",
         "FightingStyle_GreatWeaponFighting",
         "FightingStyle_Protection",
         "MM_StalwartDefense_Passive",
@@ -3676,7 +3687,7 @@
         "Mobile_PassiveBonuses",
         "Mobile_CounterAttackOfOpportunity",
         "Sharpshooter_Bonuses",
-        "SYR_DeadlyAlacrity",
+        "SYR_Feat_DeadlyAlacrity_Passive",
         "FightingStyle_Archery",
         "BB_Deadeye_Passive",
         "BB_Elusive_Serpent_Dodge_Passive",
@@ -3703,7 +3714,7 @@
         "Mobile_PassiveBonuses",
         "Mobile_CounterAttackOfOpportunity",
         "Sharpshooter_Bonuses",
-        "SYR_DeadlyAlacrity",
+        "SYR_Feat_DeadlyAlacrity_Passive",
         "FightingStyle_Archery",
         "BB_Deadeye_Passive",
         "BB_Elusive_Serpent_Dodge_Passive",
@@ -3730,7 +3741,7 @@
         "Mobile_PassiveBonuses",
         "Mobile_CounterAttackOfOpportunity",
         "Sharpshooter_Bonuses",
-        "SYR_DeadlyAlacrity",
+        "SYR_Feat_DeadlyAlacrity_Passive",
         "FightingStyle_Archery",
         "BB_Deadeye_Passive",
         "BB_Elusive_Serpent_Dodge_Passive",
@@ -3757,7 +3768,7 @@
         "Mobile_PassiveBonuses",
         "Mobile_CounterAttackOfOpportunity",
         "Sharpshooter_Bonuses",
-        "SYR_DeadlyAlacrity",
+        "SYR_Feat_DeadlyAlacrity_Passive",
         "FightingStyle_Archery",
         "BB_Deadeye_Passive",
         "BB_Elusive_Serpent_Dodge_Passive",
@@ -4658,6 +4669,20 @@
         "Target_Tentacles_MindFlayer"
       ]
     },
+    "S_LOW_Miklaur_637bb24f-66b7-4447-807b-556bd1c00ed6": {
+			"Passives": [
+				"SunlightSensitivity",
+				"Goon_Summon_Potion_Healing_Greater_x2",
+				"Goon_Summon_Potion_Healing_Supreme_x1"
+			],
+			"Spells": [
+				"NPC_ParalyzingRay",
+				"NPC_EyebitePanicked",
+				"NPC_Heal",
+				"NPC_MassHealingWord",
+        "Target_First_Aid_NPC"
+			]
+    },
     "S_LOW_Krank_47a3de7a-049b-462d-b526-60a178a649db": {
       "Passives": [
         "Goon_Acid_Vulnerable",
@@ -4684,12 +4709,10 @@
     "S_LOW_Lorroakan_a9d4b71d-b0ef-429e-8210-6dc8be986ee9": {
       "Passives": [
         "ARP_SpellSlot_7_2",
-        "ARP_SpellSlot_8_1",
+        "ARP_SpellSlot_8_2",
+        "Goon_Defensive_Resource_3",
+        "Goon_Defensive_Mirror_Image_2",
         "Alert",
-        "SpellSniper_Critical",
-        "SpellSniper_Empowered",
-        "WarCaster_Bonuses",
-        "WarCaster_OpportunitySpell",
         "ElementalAdept_Cold",
         "ElementalAdept_Fire",
         "ElementalAdept_Lightning",
@@ -4704,11 +4727,11 @@
         "MAG_ElementalGish_CantripBooster_Amulet_Passive",
         "MAG_OfSharpCaster_Hat_Passive",
         "MAG_CQCaster_GainArcaneChargeOnDamaged_Robe_Passive",
-        "WW_ShiftingElements",
         "CC_KineticRedirection_Passive",
         "CC_LivingCurrent_Passive",
         "CC_ChaoticHarmony_Passive",
-        "CC_MaximizedOutput_Passive"
+        "CC_MaximizedOutput_Passive",
+        "AJ_Emergency_Teleport"
       ],
       "Spells": [
         "Projectile_CursedTome_CurriculumofStrategy",
@@ -4717,7 +4740,7 @@
         "Zone_PrismaticSpray",
         "Target_Sunburst",
         "AJ_Shout_ActionSurge_Emergency",
-        "AJ_MirrorImage_Emergency"
+        "Target_Counterspell"
       ],
       "HealthOverride": 280
     },
@@ -4845,8 +4868,6 @@
         "SpellSniper_Critical",
         "Alert",
         "Durable",
-        "WarCaster_Bonuses",
-        "WarCaster_OpportunitySpell",
         "GrimHarvest",
         "ArmyArcana",
         "HolyRebuke",
