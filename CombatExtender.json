@@ -837,12 +837,11 @@
             "Target_Smite_Searing",
             "Shout_DivineFavor",
             "Target_Shove"
-          ]
+          ],
+          "ExtraPassives": []
         },
         "2": {
           "Spells": [
-            "VBT_Spell_3_Smite_Draining_Melee",
-            "VBT_Spell_3_Smite_Draining_Ranged",
             "Target_First_Aid_NPC"
           ],
           "ExtraPassives": [
@@ -893,17 +892,21 @@
             "Target_HolyRebuke",
             "Shout_SacredWeapon",
             "Target_LesserRestoration"
-          ]
+          ],
+          "ExtraPassives": []
         },
         "2": {
-          "Spells": [],
+          "Spells": [
+            "Shout_HealingRadiance"
+          ],
           "ExtraPassives": [
             "Goon_Aura_of_Devotion_Passive"
           ]
         },
         "3": {
           "Spells": [
-            "Shout_BeaconOfHope"
+            "Shout_BeaconOfHope",
+            "Shout_HolyAura"
           ],
           "ExtraPassives": []
         }
@@ -917,6 +920,9 @@
             "Target_InquisitorsMight",
             "Target_VowOfEnmity",
             "Target_Bane"
+          ],
+          "ExtraPassives": [
+            "SYR_Feat_DeadlyAlacrity_Passive"
           ]
         },
         "2": {
@@ -927,7 +933,8 @@
         },
         "3": {
           "Spells": [
-            "Target_Haste"
+            "Target_Haste",
+            "VBT_Spell_5_Dawn"
           ],
           "ExtraPassives": []
         }
@@ -941,19 +948,26 @@
             "Target_SpitefulSuffering",
             "Shout_Dreadful_Aspect",
             "Target_InflictWounds"
-          ]
+          ],
+          "ExtraPassives": []
         },
         "2": {
-          "Spells": [],
+          "Spells": [
+            "VBT_Spell_3_Smite_Draining_Melee",
+            "VBT_Spell_3_Smite_Draining_Ranged"
+          ],
           "ExtraPassives": [
             "Goon_Aura_of_Hate_Passive"
           ]
         },
         "3": {
           "Spells": [
-            "Target_AnimateDead_NPC"
+            "Target_AnimateDead_NPC",
+            "Shout_ShadowOfMoil"
           ],
-          "ExtraPassives": []
+          "ExtraPassives": [
+            "GraveMagic"
+          ]
         }
       }
     },
@@ -962,14 +976,18 @@
       "Act": {
         "1": {
           "Spells": [
+            "Projectile_EnsnaringStrike",
+            "Target_EnsnaringStrike",
             "Shout_ZephyrStrike",
-            "Target_HuntersMark",
-            "Projectile_HailOfThorns"
+            "Target_HuntersMark"
           ],
           "ExtraPassives": []
         },
         "2": {
           "Spells": [
+            "Projectile_HailOfThorns",
+            "Target_SummonBeast",
+            "Target_SpikeGrowth",
             "Zone_ConjureBarrage",
             "Projectile_LightningArrow",
             "Target_Find_Weak_Spot_Survival_NPC"
@@ -988,9 +1006,9 @@
         "3": {
           "Spells": [
             "Shout_HideInPlainSight",
-            "Shout_SwiftQuiver",
-            "Target_SummonBeast",
             "Target_SummonFey",
+            "Shout_GuardianOfNature_GreatTree",
+            "Shout_SwiftQuiver",
             "Target_First_Aid_NPC"
           ],
           "ExtraPassives": [
@@ -4670,18 +4688,18 @@
       ]
     },
     "S_LOW_Miklaur_637bb24f-66b7-4447-807b-556bd1c00ed6": {
-			"Passives": [
-				"SunlightSensitivity",
-				"Goon_Summon_Potion_Healing_Greater_x2",
-				"Goon_Summon_Potion_Healing_Supreme_x1"
-			],
-			"Spells": [
-				"NPC_ParalyzingRay",
-				"NPC_EyebitePanicked",
-				"NPC_Heal",
-				"NPC_MassHealingWord",
+      "Passives": [
+        "SunlightSensitivity",
+        "Goon_Summon_Potion_Healing_Greater_x2",
+        "Goon_Summon_Potion_Healing_Supreme_x1"
+      ],
+      "Spells": [
+        "NPC_ParalyzingRay",
+        "NPC_EyebitePanicked",
+        "NPC_Heal",
+        "NPC_MassHealingWord",
         "Target_First_Aid_NPC"
-			]
+      ]
     },
     "S_LOW_Krank_47a3de7a-049b-462d-b526-60a178a649db": {
       "Passives": [
