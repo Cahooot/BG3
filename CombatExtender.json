@@ -381,6 +381,7 @@
       "Act": {
         "1": {
           "ExtraPassives": [
+            "Goon_Target_Longstrider_Passive",
             "MAG_BardicInspiration_Heal_Hat_Passive",
             "SS_SpellSaveDC_Rhythm"
           ],
@@ -546,6 +547,7 @@
         },
         "2": {
           "ExtraPassives": [
+            "Goon_Target_ShieldOfFaith_Passive",
             "ShieldMaster_Block",
             "ShieldMaster_PassiveBonuses",
             "MAG_MaximizedHealCleric_Passive",
@@ -630,6 +632,7 @@
         },
         "3": {
           "ExtraPassives": [
+            "LOW_HoH_Hope_DeathWard",
             "MAG_Revivify_Gloves_Passive"
           ],
           "Spells": []
@@ -770,7 +773,6 @@
         "3": {
           "ExtraPassives": [
             "Tough",
-            "Durable",
             "OO_RadiantSurge_Passive"
           ],
           "Spells": []
@@ -794,6 +796,7 @@
         },
         "2": {
           "ExtraPassives": [
+            "Goon_Shout_WaterWalk_Passive",
             "Mobile_PassiveBonuses",
             "Mobile_DashAcrossDifficultTerrain",
             "GG_Two_WildshapeAC",
@@ -908,11 +911,11 @@
       "Act": {
         "1": {
           "ExtraPassives": [
+            "Goon_Shout_Shillelagh_Passive",
             "GG_Three_Shillelagh_DamageBoost",
             "GG_Three_PoisonResist_Passive"
           ],
           "Spells": [
-            "Shout_Shillelagh",
             "Projectile_LarlochsMinorDrain",
             "Target_AnimateDead_NPC"
           ]
@@ -1034,7 +1037,9 @@
       "Act": {
         "1": {
           "ExtraPassives": [
-            "BattlemageCasting"
+            "BattlemageCasting",
+            "Goon_Shout_WeaponBond_Passive",
+            "Goon_Target_Longstrider_Passive"
           ],
           "Spells": [
             "Target_BoomingBlade",
@@ -1207,12 +1212,11 @@
         },
         "2": {
           "ExtraPassives": [
-            "Goon_Aura_of_Protection_Passive",
+            "Goon_Target_ShieldOfFaith_Passive",
             "SavageAttacker",
             "MAG_Paladin_SmiteSpellsSupport_Helmet_Passive",
             "OO_SmiteRadiance_Passive",
-            "OO_SmiteChargeSteel_Passive",
-            "OO_DivineResilience_Passive"
+            "OO_SmiteChargeSteel_Passive"
           ],
           "Spells": [
             "Target_First_Aid_NPC"
@@ -1220,7 +1224,6 @@
         },
         "3": {
           "ExtraPassives": [
-            "Goon_Aura_of_Courage_Passive",
             "Durable",
             "HeavyArmorMaster",
             "MageSlayer_AttackCaster",
@@ -1392,6 +1395,7 @@
             "NaturalExplorer_WastelandWander_Cold",
             "NaturalExplorer_WastelandWander_Fire",
             "NaturalExplorer_WastelandWander_Poison",
+            "Goon_Shout_WaterWalk_Passive",
             "SYR_Feat_DeadlyAlacrity_Passive",
             "BB_Elusive_Serpent_Dodge_Passive",
             "ARA_Cloak_ToRangedAttack_Passive"
@@ -1611,6 +1615,7 @@
       "Act": {
         "1": {
           "ExtraPassives": [
+            "Goon_Target_MageArmor_Passive",
             "CC_AugmentedDefense_Passive",
             "CC_SorcFortification_Passive"
           ],
@@ -1756,7 +1761,9 @@
           ]
         },
         "3": {
-          "ExtraPassives": [],
+          "ExtraPassives": [
+            "MAG_Thunder_Reverberation_Gloves_Passive"
+          ],
           "Spells": [
             "Projectile_ChainLightning"
           ]
@@ -1771,6 +1778,7 @@
             "PactOfTheTome",
             "AgonizingBlast",
             "DevilsSight",
+            "Goon_Target_MageArmor_Passive",
             "PP_Shadowfell_Infusion_Passive",
             "PP_AscendedPact_Text_Passive",
             "PP_AP_Tome_Passive",
@@ -1902,9 +1910,9 @@
       "Act": {
         "1": {
           "ExtraPassives": [
+            "Goon_Target_MageArmor_Passive",
             "WW_CantripBooster_Arcana_Passive",
             "WW_ArcanistCharge_Passive",
-            "WW_GainArcaneAcuityOnDamage_Passive",
             "WW_CantripBooster_Arcana_Passive"
           ],
           "Spells": [
@@ -1914,7 +1922,6 @@
             "Projectile_ChromaticOrb",
             "Zone_ColorSpray",
             "Target_Frostbite",
-            "Projectile_MagicMissile",
             "Target_HoldPerson",
             "Projectile_AcidArrow",
             "Zone_LightningBolt",
@@ -1925,7 +1932,8 @@
           "ExtraPassives": [
             "WW_Frostfire_Passive",
             "WW_ArcRepeater_Crit_Passive",
-            "WW_ArcRepeater_SpellAttkBonus_Passive"
+            "WW_ArcRepeater_SpellAttkBonus_Passive",
+            "WW_GainArcaneAcuityOnDamage_Passive"
           ],
           "Spells": [
             "Target_Banishment",
@@ -2925,7 +2933,7 @@
         "SunlightSensitivity",
         "MAG_Critical_Force_Critical_Passive",
         "MAG_LowHP_IncreasedSpellDamage_Passive",
-        "NPC_DamageReduction_2",
+        "Goon_DamageReduction_2",
         "AJ_Emergency_Teleport"
       ],
       "Spells": [
@@ -3027,7 +3035,6 @@
     },
     "S_UND_HookHorror_Hermit_2f00e363-09b2-4573-badc-f0995bef6610": {
       "Passives": [
-        "Durable",
         "ElementalAdept_Cold",
         "MAG_Cold_ChilledOnSpellDamage_Passive",
         "MAG_FrostTalon_ChillingCounter_Passive",
@@ -3057,18 +3064,16 @@
     },
     "S_UND_PetrifiedDrow_Spectator_39ff8241-fadd-4fbe-ab89-fc5a8b7638a0": {
       "Passives": [
-        "Durable",
         "MultiattackDefense",
-        "NPC_DamageReduction"
+        "Goon_DamageReduction"
       ],
       "Spells": []
     },
     "EO_Spectator_33b81965-7790-44dc-b51d-a02e17f77072": {
       "Passives": [
-        "Durable",
         "MultiattackDefense",
         "ControlledChaos",
-        "NPC_DamageReduction"
+        "Goon_DamageReduction"
       ],
       "Spells": []
     },
@@ -3355,7 +3360,7 @@
         "MageSlayer_Advantage",
         "MageSlayer_BreakConcentration",
         "WW_GainArcaneAcuityOnDamage_Passive",
-        "NPC_DamageReduction_2"
+        "Goon_DamageReduction_2"
       ],
       "Spells": [
         "Target_MindWhip",
@@ -3486,7 +3491,7 @@
         "RelentlessEndurance",
         "RR_Titan_Grip_Passive",
         "VV_CorneredRat_Passive",
-        "NPC_DamageReduction"
+        "Goon_DamageReduction"
       ],
       "Spells": [
         "Target_MAG_Myrkulites_GhoulTouch"
@@ -3614,8 +3619,9 @@
     },
     "S_SCL_ServantOfTheRaven_ShadarKai_a66dd998-1e87-433b-b147-359c0572e700": {
       "Passives": [
+        "CX_MiniBoss_Boost",
         "Lifedrinker",
-        "NPC_DamageReduction_3"
+        "Goon_DamageReduction_3"
       ],
       "Spells": [
         "VBT_Spell_3_BreathOfHadar"
@@ -3625,7 +3631,7 @@
       "Passives": [
         "CX_Boss_Boost",
         "ARP_ActionPoint",
-        "NPC_DamageReduction_1",
+        "Goon_DamageReduction_1",
         "MultiattackDefense"
       ],
       "Spells": [
@@ -3656,7 +3662,7 @@
         "Blindsight",
         "RelentlessEndurance",
         "MAG_Fighter_ActionSurge_AttackBonus_Gloves_Passive",
-        "NPC_DamageReduction"
+        "Goon_DamageReduction"
       ],
       "Spells": [
         "Shout_MOO_MAG_Ketheric_HowlOfTheDead",
@@ -3715,7 +3721,7 @@
         "Durable",
         "MultiattackDefense",
         "ControlledChaos",
-        "NPC_DamageReduction_1"
+        "Goon_DamageReduction_1"
       ]
     },
     "S_MOO_OublietteHookHorror_000_eda129f0-b54b-4b05-95a3-ba626e4b765a": {
@@ -3748,7 +3754,7 @@
     },
     "S_SHA_LastJusticiar_594ba359-ce55-4b54-9efc-94eca306c540": {
       "Passives": [
-        "NPC_DamageReduction"
+        "Goon_DamageReduction"
       ],
       "Spells": [
         "Shout_ActionSurge",
@@ -3862,7 +3868,7 @@
         "Mobile_PassiveBonuses",
         "Mobile_DashAcrossDifficultTerrain",
         "Blindsight",
-        "NPC_DamageReduction_1"
+        "Goon_DamageReduction_1"
       ],
       "Spells": [
         "AJ_HPSpiritGuardians",
@@ -3917,7 +3923,7 @@
         "Tough",
         "MageSlayer_BreakConcentration",
         "InstinctiveCharm",
-        "NPC_DamageReduction"
+        "Goon_DamageReduction"
       ],
       "Spells": [
         "Target_VampiricTouch",
@@ -3995,7 +4001,7 @@
     "S_TWN_VlaakithAttack_Caster_000_e4141a02-f5e7-4a0c-a7af-d3dda6610c1b": {
       "Passives": [
         "PactOfTheBlade",
-        "Goon_Pact_Blade_Passive",
+        "Goon_Shout_Pact_Blade_Passive",
         "Lifedrinker",
         "PP_AscendedPact_Text_Passive",
         "PP_AP_Blade_Passive",
@@ -4011,7 +4017,7 @@
       "Passives": [
         "ARP_ActionPoint",
         "Alert",
-        "NPC_DamageReduction_3"
+        "Goon_DamageReduction_3"
       ],
       "Spells": [
         "AJ_MirrorImage_Emergency",
@@ -4030,7 +4036,7 @@
     },
     "S_WYR_MerchantsHouse_ThugLeader_bed33e19-1620-4845-aaa6-52de87f7e2e8": {
       "Passives": [
-        "NPC_DamageReduction"
+        "Goon_DamageReduction"
       ]
     },
     "S_WYR_Rivington_FlamingFist_001_c2dc31f3-7e26-44b8-b3c6-984fdbd3d554": {
@@ -4052,19 +4058,13 @@
     },
     "S_WYR_Circus_DoppelClown_21f541c1-e1bc-49a8-888f-d8a330c47336": {
       "Passives": [
-        "CX_Barbarian_Boost",
-        "CX_Barbarian_WildMagic_Boost",
-        "Goon_Barbarian_NPC_Progressions",
         "MAG_Critfisher_Passive"
       ],
       "Spells": [
         "Zone_MindBlast_MindFlayer",
         "Projectile_Fireworks_Box_A",
         "Projectile_Fireworks_Rocket_A",
-        "Projectile_Fireworks_Rocket_B",
-        "Projectile_Fireworks_Rocket_C",
         "NPC_MassPolymorph",
-        "AJ_Revelry_Emergency",
         "AJ_PWK_Emergency",
         "AJ_Shout_ActionSurge_Emergency"
       ]
@@ -4174,12 +4174,12 @@
     "LOW_SerialKiller_Doppelganger_GiveQuest_c1ace95e-806a-4e83-9cd0-45fffd293ede": {
       "Passives": [
         "ARP_ActionPoint",
-        "NPC_DamageReduction"
+        "Goon_DamageReduction"
       ]
     },
     "S_LOW_Elfsong_GithyankiShield_Paladin_54467aa9-33dd-41c4-bd77-87a71ed22c16": {
       "Passives": [
-        "NPC_DamageReduction_3"
+        "Goon_DamageReduction_3"
       ],
       "Spells": [
         "Shout_ActionSurge"
@@ -4187,7 +4187,7 @@
     },
     "S_LOW_Guildhall_NineFingers_ef1b7a12-6439-470a-885c-fa47851728cd": {
       "Passives": [
-        "NPC_DamageReduction"
+        "Goon_DamageReduction"
       ]
     },
     "S_LOW_Park_Bhaal_Leader_ecb818a4-d67d-4e7f-b917-552654a4cb61": {
@@ -4250,7 +4250,7 @@
         "CX_MiniBoss_Boost",
         "ARP_ActionPoint",
         "VV_CorneredRat_Passive",
-        "NPC_DamageReduction_2"
+        "Goon_DamageReduction_2"
       ],
       "Spells": [
         "Zone_MindBlast_MindFlayer",
@@ -4287,6 +4287,7 @@
       "Passives": [
         "ARP_SpellSlot_6_1",
         "ARP_SpellSlot_7_1",
+        "Goon_Shout_ATT_CrownOfStars_Passive",
         "Goon_Defensive_Resource_3",
         "Goon_Defensive_Mirror_Image_2",
         "ElementalAdept_Fire",
@@ -4323,7 +4324,7 @@
         "MAG_Psychic_MentalFatigue_Gloves_Passive",
         "MAG_Frightened_Immunity_Passive",
         "MAG_Thunder_ReverberationOnStatusApply_Boots_Passive",
-        "NPC_DamageReduction"
+        "Goon_DamageReduction"
       ],
       "Spells": [
         "Target_TAD_MindSanctuary",
@@ -4366,6 +4367,7 @@
       "Passives": [
         "ARP_SpellSlot_7_2",
         "ARP_SpellSlot_8_2",
+        "Goon_Shout_ATT_CrownOfStars_Passive",
         "Goon_Defensive_Resource_3",
         "Goon_Defensive_Mirror_Image_2",
         "Alert",
@@ -4386,7 +4388,7 @@
         "CC_ChaoticHarmony_Passive",
         "CC_MaximizedOutput_Passive",
         "AJ_Emergency_Teleport",
-        "NPC_DamageReduction"
+        "Goon_DamageReduction"
       ],
       "Spells": [
         "Target_Counterspell",
@@ -4521,7 +4523,7 @@
         "MAG_Harpers_RingOfTwilight_Passive",
         "PP_SoulfireRetaliation_Passive",
         "PP_Soulrender_Passive",
-        "NPC_DamageReduction_4"
+        "Goon_DamageReduction_4"
       ],
       "Spells": [
         "Target_SteelWindStrike",
@@ -4562,7 +4564,6 @@
     "S_LOW_SteelWatcher_Prototype_51db791d-4378-448a-86ba-3e3ae2748db6": {
       "Passives": [
         "SavageAttacker",
-        "Durable",
         "MAG_Fire_BurningOnDamaged_Cloak_Passive",
         "MAG_Fire_ApplyBurningOnFireDamage_Passive",
         "MAG_Infernal_Plate_Armor_Passive"
@@ -4588,6 +4589,7 @@
     "S_LOW_Viconia_b1ea974d-96fb-47ca-b6d9-9c85fcb69313": {
       "Passives": [
         "CX_Martial_Boost",
+        "Goon_Shout_HeroesFeast_Passive",
         "ARP_SpellSlot_5_2",
         "ARP_SpellSlot_6_1",
         "ARP_SpellSlot_7_1",
@@ -4595,7 +4597,7 @@
         "Mobile_DashAcrossDifficultTerrain",
         "FightingStyle_Dueling",
         "LOW_Chasm_Mangle_Pushback",
-        "NPC_DamageReduction_2"
+        "Goon_DamageReduction_2"
       ],
       "Spells": [
         "Zone_Thunderwave",
@@ -4620,7 +4622,7 @@
         "RelentlessEndurance",
         "LOW_Chasm_Mangle_Pushback",
         "MAG_Heightened_Necromancy_Passive",
-        "NPC_DamageReduction"
+        "Goon_DamageReduction"
       ],
       "Spells": [
         "Shout_ActionSurge",
@@ -4636,15 +4638,15 @@
     },
     "S_GLO_HollyphantDetective_acf70307-3bb9-4b91-b894-fa2120916f58": {
       "Passives": [
-        "CX_Cleric_Boost",
-        "CX_Cleric_Light_Boost",
         "Goon_Necrotic_Immune",
+        "Goon_Radiant_Resistant",
         "Goon_Acid_Resistant",
         "Goon_Fire_Resistant",
         "Goon_Cold_Resistant",
         "MagicResistance",
         "HolyRebuke"
-      ]
+      ],
+      "Spells": []
     },
     "S_LOW_MurderTribunal_Sarevok_ae9f784a-ea64-4297-95a7-8377e85231b6": {
       "Passives": [
@@ -4669,117 +4671,15 @@
     },
     "S_LOW_HouseOfHope_Incubus_3947e0e2-3b4c-4a39-ac53-454e95665b26": {
       "Passives": [
-        "Goon_Fire_Ignore_Resistance",
-        "MultiattackDefense",
-        "Durable",
-        "Tough",
         "RelentlessEndurance",
+        "MAG_Infernal_Plate_Armor_Passive",
         "MAG_Fighter_ActionSurge_AttackBonus_Gloves_Passive",
-        "NPC_DamageReduction"
+        "Goon_DamageReduction"
       ],
       "Spells": [
-        "NPC_SummonGildedHellsboar",
         "NPC_HellfireOrb",
-        "NPC_FleshToGold",
-        "NPC_ParalyzingRay",
         "AJ_HPSummonCambion",
         "AJ_Shout_ActionSurge_Emergency"
-      ]
-    },
-    "S_LOW_HouseOfHope_BoudoirImp01_4a793e6c-572c-4541-a10e-ce75b1e62255": {
-      "Passives": [
-        "Goon_Necrotic_Resistant",
-        "WildMagic"
-      ],
-      "Spells": [
-        "NPC_FireworkBlast"
-      ]
-    },
-    "S_LOW_HouseOfHope_BoudoirImp02_5849cd14-4f4a-4742-bb0c-056c3ef7f90e": {
-      "Passives": [
-        "Goon_Necrotic_Resistant",
-        "WildMagic"
-      ],
-      "Spells": [
-        "NPC_FireworkBlast"
-      ]
-    },
-    "S_LOW_HouseOfHope_BoudoirImp03_4adcf56c-e1cc-4441-8e3f-0761172407d4": {
-      "Passives": [
-        "Goon_Necrotic_Resistant",
-        "WildMagic"
-      ],
-      "Spells": [
-        "NPC_FireworkBlast"
-      ]
-    },
-    "S_LOW_HouseOfHope_BoudoirImp04_55c88dba-6d2d-4082-b5dc-be1590c0e326": {
-      "Passives": [
-        "Goon_Necrotic_Resistant",
-        "WildMagic"
-      ],
-      "Spells": [
-        "NPC_FireworkBlast"
-      ]
-    },
-    "S_LOW_HouseOfHope_BoudoirImp05_5ceed225-db6e-4652-bd4b-88c250550193": {
-      "Passives": [
-        "Goon_Necrotic_Resistant",
-        "WildMagic"
-      ],
-      "Spells": [
-        "NPC_FireworkBlast"
-      ]
-    },
-    "S_LOW_HouseOfHope_BoudoirImp06_3a9e98f5-fe4c-46b2-a129-1e67fe92512b": {
-      "Passives": [
-        "Goon_Necrotic_Resistant",
-        "WildMagic"
-      ],
-      "Spells": [
-        "NPC_FireworkBlast"
-      ]
-    },
-    "S_LOW_HouseOfHope_FlamingBoar01_0d1cf2a6-0b56-4c14-83d1-7587e9c8c63c": {
-      "Passives": [
-        "Goon_Necrotic_Resistant",
-        "Goon_Increased_Movement_2",
-        "Goon_Magic_Allergy_Unlock",
-        "MAG_Fire_BurningOnDamaged_Cloak_Passive",
-        "MAG_Fire_ApplyBurningOnFireDamage_Passive",
-        "MAG_Infernal_Plate_Armor_Passive"
-      ],
-      "Spells": [
-        "Projectile_Jump",
-        "Shout_CreateLava"
-      ]
-    },
-    "S_LOW_HouseOfHope_FlamingBoar02_82efa3b1-ed21-4569-ac26-65b8a42dde9b": {
-      "Passives": [
-        "Goon_Necrotic_Resistant",
-        "Goon_Increased_Movement_2",
-        "Goon_Magic_Allergy_Unlock",
-        "MAG_Fire_BurningOnDamaged_Cloak_Passive",
-        "MAG_Fire_ApplyBurningOnFireDamage_Passive",
-        "MAG_Infernal_Plate_Armor_Passive"
-      ],
-      "Spells": [
-        "Projectile_Jump",
-        "Shout_CreateLava"
-      ]
-    },
-    "S_LOW_HouseOfHope_FlamingBoar03_a618f956-d2e8-4108-b5e9-7729286c3993": {
-      "Passives": [
-        "Goon_Necrotic_Resistant",
-        "Goon_Increased_Movement_2",
-        "Goon_Magic_Allergy_Unlock",
-        "MAG_Fire_BurningOnDamaged_Cloak_Passive",
-        "MAG_Fire_ApplyBurningOnFireDamage_Passive",
-        "MAG_Infernal_Plate_Armor_Passive"
-      ],
-      "Spells": [
-        "Projectile_Jump",
-        "Shout_CreateLava"
       ]
     },
     "S_LOW_HouseOfHope_PrisonSpectator01_d92a207c-874a-4409-9cad-4abcec33efa1": {
@@ -4790,7 +4690,7 @@
         "ShadowyRetreat",
         "SunlightWeakness",
         "AversionOfFire",
-        "NPC_DamageReduction_2"
+        "Goon_DamageReduction_2"
       ]
     },
     "S_LOW_HouseOfHope_PrisonSpectator02_9089024f-e275-43a9-adec-f0923fab2f0c": {
@@ -4801,7 +4701,7 @@
         "ShadowyRetreat",
         "SunlightWeakness",
         "AversionOfFire",
-        "NPC_DamageReduction_2"
+        "Goon_DamageReduction_2"
       ]
     },
     "S_GOB_Warlock_d432aafd-f728-4d9d-9707-732e1cdd8297": {
@@ -4814,7 +4714,7 @@
         "MAG_Infernal_Metal_Helmet_InfernalSight_Passive",
         "MAG_Lesser_Infernal_Plate_Armor_FireDamage_Passive",
         "Goon_Summon_Potion_Healing_Greater_x2",
-        "NPC_DamageReduction"
+        "Goon_DamageReduction"
       ],
       "Spells": [
         "Target_Counterspell",
@@ -4841,7 +4741,7 @@
         "SS_SoulfulHarmony",
         "SS_EncorePerformance_LowHP",
         "Goon_Summon_Potion_Healing_Supreme_x1",
-        "NPC_DamageReduction"
+        "Goon_DamageReduction"
       ],
       "Spells": [
         "NPC_Harm",
@@ -4857,7 +4757,7 @@
     },
     "S_WYR_SkeletonDragon_Minion_01_9bb09a03-955a-4ecb-b1ea-4a5d83ec2b7e": {
       "Passives": [
-        "NPC_AttackRoll_2"
+        "Goon_AttackRoll_2"
       ],
       "Spells": [
         "Target_MAG_WeaponAction_FrigidBlade"
@@ -4865,7 +4765,7 @@
     },
     "S_WYR_SkeletonDragon_Minion_02_df015249-8648-46a7-9fe7-8ea64342eb59": {
       "Passives": [
-        "NPC_AttackRoll_2"
+        "Goon_AttackRoll_2"
       ],
       "Spells": [
         "Target_MAG_WeaponAction_FrigidBlade"
@@ -4921,7 +4821,7 @@
         "MAG_StunnImmunity_Passive",
         "MAG_Shadow_BlindImmunity_Ring_Passive",
         "MAG_Critfisher_Passive",
-        "NPC_DamageReduction"
+        "Goon_DamageReduction"
       ]
     },
     "S_WYR_WyrmRock_ArmouryQuartermaster_831fbc36-b0df-4248-9c39-50906b715d25": {
@@ -5066,7 +4966,7 @@
         "MAG_StunnImmunity_Passive",
         "MAG_Shadow_BlindImmunity_Ring_Passive",
         "CC_AugmentedRetaliation_Passive",
-        "NPC_DamageReduction",
+        "Goon_DamageReduction",
         "Goon_Summon_Potion_Healing_Supreme_x3"
       ],
       "Spells": [
@@ -5083,7 +4983,7 @@
         "MultiattackDefense",
         "MAG_Psychic_MentalFatigue_Gloves_Passive",
         "MAG_Psychic_MentalFatigue_Ring_Passive",
-        "NPC_DamageReduction"
+        "Goon_DamageReduction"
       ],
       "Spells": []
     },
@@ -5094,7 +4994,7 @@
         "MultiattackDefense",
         "MAG_Psychic_MentalFatigue_Gloves_Passive",
         "MAG_Psychic_MentalFatigue_Ring_Passive",
-        "NPC_DamageReduction"
+        "Goon_DamageReduction"
       ],
       "Spells": []
     },
@@ -5116,7 +5016,7 @@
         "MultiattackDefense",
         "MAG_Psychic_MentalFatigue_Gloves_Passive",
         "MAG_Psychic_MentalFatigue_Ring_Passive",
-        "NPC_DamageReduction"
+        "Goon_DamageReduction"
       ],
       "Spells": []
     },
@@ -5127,7 +5027,7 @@
         "Goon_Damage_Necrotic_d8_Spells",
         "Durable",
         "MAG_Infernal_Plate_Armor_Passive",
-        "NPC_DamageReduction"
+        "Goon_DamageReduction"
       ]
     },
     "S_END_BrainBattle_MindFlayer_001_70ef4f3f-c8bf-4b07-b473-8043699a6d5c": {
@@ -5174,59 +5074,11 @@
         "NPC_EyebiteSickened"
       ]
     },
-    "QUEST_END_Thrall_Sorcerer_a134466e-333b-4bf5-a65b-6a717fdaf044": {
-      "Passives": [
-        "ARP_SpellSlot_7_1"
-      ],
-      "Spells": [
-        "Target_FireStorm"
-      ]
-    },
-    "QUEST_END_Thrall_Wizard_ca44eafa-4c35-4103-889d-fd4df47f2835": {
-      "Passives": [
-        "ARP_SpellSlot_7_1",
-        "InstinctiveCharm"
-      ],
-      "Spells": [
-        "Zone_PrismaticSpray"
-      ]
-    },
-    "END_BackupDaisy_001_d8e8b72e-4b21-4442-8e34-0ecab3f499ae": {
-      "Passives": [
-        "ExtraAttack",
-        "Lifedrinker"
-      ],
-      "Spells": []
-    },
-    "END_BackupDaisy_002_7f8ba670-6749-457e-9aea-8169ab6d7a38": {
-      "Passives": [
-        "ExtraAttack",
-        "Lifedrinker"
-      ],
-      "Spells": []
-    },
-    "END_BackupDaisy_003_41900801-ad80-4e79-881a-b0f58f14aff4": {
-      "Passives": [
-        "ExtraAttack",
-        "Lifedrinker"
-      ],
-      "Spells": []
-    },
-    "END_BackupDaisy_004_e7bc792c-09ab-4a42-972e-6798cb5927b5": {
-      "Passives": [
-        "ExtraAttack",
-        "Lifedrinker"
-      ],
-      "Spells": []
-    },
     "S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b": {
       "Passives": [
         "ARP_ActionPoint",
         "ARP_SpellSlot_6_1",
         "ARP_SpellSLot_7_1",
-        "CX_Wizard_Boost",
-        "CX_Wizard_Enchantment_Boost",
-        "Goon_Wizard_NPC_Progressions",
         "Goon_Defensive_Resource_5",
         "Goon_Defensive_Mirror_Image_2",
         "Goon_Damage_Psychic_d6_SpellAttacks",
@@ -5234,14 +5086,10 @@
         "Alert",
         "SpellSniper_Critical",
         "ClarifiedMortality",
-        "NPC_DamageReduction_3"
+        "Goon_DamageReduction_3"
       ],
       "Spells": [
-        "NPC_LightningBolt",
-        "NPC_IncendiaryCloud",
-        "NPC_ParalyzingRay",
-        "NPC_FleshToStone",
-        "NPC_OttoDance"
+        "Zone_PrismaticSpray"
       ],
       "HealthOverride": 300
     },
@@ -5267,7 +5115,7 @@
         "MAG_Infernal_Plate_Armor_Passive",
         "MAG_Psychic_MentalFatigue_Ring_Passive",
         "MAG_PHB_PeriaptofWoundClosure_Amulet_Maximize_Passive",
-        "NPC_DamageReduction"
+        "Goon_DamageReduction"
       ],
       "Spells": [],
       "HealthOverride": 500
@@ -5287,7 +5135,7 @@
         "Goon_Psychic_Vulnerable",
         "Durable",
         "Tough",
-        "NPC_DamageReduction"
+        "Goon_DamageReduction"
       ]
     },
     "S_GLO_Isobel_263bfbfc-6160-46f4-a9e1-1089cdb5c211": {
@@ -5335,6 +5183,16 @@
         "NPC_GuardianOfFaith"
       ],
       "HealthOverride": 120
+    },
+    "S_LOW_JaheirasHouse_JaheirasEldestDaughter_8f5ab254-2d62-4115-a4d4-3b84e6d1896c": {
+      "Passives": [
+      ],
+      "Spells": []
+    },
+    "S_LOW_JaheirasHouse_JaheirasEldestSon_ebfe9029-2a74-40eb-bbd1-8e5d0ec8fe1f": {
+      "Passives": [
+      ],
+      "Spells": []
     },
     "S_GLO_Wyll_Cambion_491a7686-3081-405b-983c-289ec8781e0a": {
       "Passives": [
