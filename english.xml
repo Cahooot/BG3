@@ -1,26 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <contentList> 
-	<content contentuid="h39d01fe9647646449a44ba72ce26fb562c4d" version="1">Main hand Lead balls</content>
-	<content contentuid="h4ea9082e359945c1ab36f7096dccdddf3cf4" version="1">Offhand Lead balls</content>
-	<content contentuid="hca4473e36c5e4970a301790ec14f9270d011" version="1">Blunderbuss Lead balls</content>
-	<content contentuid="h869f41b06e5946768969b400e909e29828ce" version="1">Musket Lead balls</content>
-	<content contentuid="hd94613f49857466da5b62e22c5642c349g8c" version="1">Mainhand Flintlock Attack</content>
+	<content contentuid="h39d01fe9647646449a44ba72ce26fb562c4d" version="1">Main Hand Lead Balls</content>
+	<content contentuid="h4ea9082e359945c1ab36f7096dccdddf3cf4" version="1">Offhand Lead Balls</content>
+	<content contentuid="hca4473e36c5e4970a301790ec14f9270d011" version="1">Blunderbuss Lead Balls</content>
+	<content contentuid="h869f41b06e5946768969b400e909e29828ce" version="1">Musket Lead Balls</content>
+	<content contentuid="hd94613f49857466da5b62e22c5642c349g8c" version="1">Main Hand Flintlock Attack</content>
 	<content contentuid="h3a7b64fa9d3a4598ab3daf338b1439abcb64" version="1">Offhand Flintlock Attack</content>
 	<content contentuid="hfcb95d1900c3492982036314990d8ab9eb37" version="1">Blunderbuss Attack</content>
-	<content contentuid="hd2b13a17eb1745489b41121e677f9c7b60ac" version="1">Used to fire with equiped firearm.</content>
+	<content contentuid="hd2b13a17eb1745489b41121e677f9c7b60ac" version="1">Used to fire with equipped firearm.</content>
 	<content contentuid="hb7c5f5c45f0f42bf90a12d8ce3b8e140f498" version="1">Musket Attack</content>
     <content contentuid="h9948c4df266c474c8f2a9e9f7c75bd508e81" version="1">Reload Firearm</content>
 	<content contentuid="h1da7c3206e654182885f38c8f62c3a891b86" version="1">Overheated</content>
-    <content contentuid="he1524ef8dd824c56ab047db880ef63fa897d" version="1">Your shots are ignited with hell flames.</content>
-	<content contentuid="hf308c862d7ab40ec973f354d574c97848486" version="1">Make a shot, using your &lt;LSTag Type="ActionResource" Tooltip="FlintlockAmmo"&gt;ammo&lt;/LSTag&gt;.</content>
-	<content contentuid="h875348335ac148aba993dd4dfdb03ce9e86e" version="1">Make a shot, using your &lt;LSTag Type="ActionResource" Tooltip="OffhandFlintlockAmmo"&gt;ammo&lt;/LSTag&gt;.</content>
-	<content contentuid="h17d6a97944c047a39d69ce4f0debb5f60beg" version="1">Make a shot, using your &lt;LSTag Type="ActionResource" Tooltip="BlunderbussAmmo"&gt;ammo&lt;/LSTag&gt;.</content>
-	<content contentuid="h47f9ce1a3df140ad83bfddcebf24d09573f4" version="1">Make a shot, using your &lt;LSTag Type="ActionResource" Tooltip="MusketAmmo"&gt;ammo&lt;/LSTag&gt;.</content>
+    <content contentuid="he1524ef8dd824c56ab047db880ef63fa897d" version="1">Your shots are ignited with hellfire.</content>
+	<content contentuid="hf308c862d7ab40ec973f354d574c97848486" version="1">Make a shot using your &lt;LSTag Type="ActionResource" Tooltip="FlintlockAmmo"&gt;ammo&lt;/LSTag&gt;.</content>
+	<content contentuid="h875348335ac148aba993dd4dfdb03ce9e86e" version="1">Make a shot using your &lt;LSTag Type="ActionResource" Tooltip="OffhandFlintlockAmmo"&gt;ammo&lt;/LSTag&gt;.</content>
+	<content contentuid="h17d6a97944c047a39d69ce4f0debb5f60beg" version="1">Make a shot using your &lt;LSTag Type="ActionResource" Tooltip="BlunderbussAmmo"&gt;ammo&lt;/LSTag&gt;.</content>
+	<content contentuid="h47f9ce1a3df140ad83bfddcebf24d09573f4" version="1">Make a shot using your &lt;LSTag Type="ActionResource" Tooltip="MusketAmmo"&gt;ammo&lt;/LSTag&gt;.</content>
 	<content contentuid="h60fad97c1f12406089daa939fafbde5dc671" version="1">Restore your firearm ammo.</content>
 	<content contentuid="h69f301cc0eec4a21a9b8eb97126595e6b264" version="1">Double Barrel Attack</content>
-	<content contentuid="h72e7ef3d7982489786981f9bcb99178edf6b" version="1">Unleash full potential of this weapon. Make 2 strikes in a quick succession.</content>
-	<content contentuid="h441874ec06a54ecd858144db752e1724f3bd" version="1">Small firearm</content>
-	<content contentuid="h409da1e44d994836b7fb8289f44fb9b182fb" version="1">Weapon tag</content>
+	<content contentuid="h72e7ef3d7982489786981f9bcb99178edf6b" version="1">Unleash the full potential of this weapon. Make 2 strikes in quick succession.</content>
+	<content contentuid="h441874ec06a54ecd858144db752e1724f3bd" version="1">Small Firearm</content>
+	<content contentuid="h409da1e44d994836b7fb8289f44fb9b182fb" version="1">Weapon Tag</content>
 	<content contentuid="h5bd072ff8e674f1c9c4d544b43ba51123gf5" version="1">Flintlock</content>
 	<content contentuid="h79c3ecdb17104a25a3ed85df12dfebb98ff9" version="1">Flintlock +1</content>
 	<content contentuid="he816d8955eb9414db00ee78b1a46f2cbc209" version="1">Flintlock +2</content>
@@ -30,41 +30,41 @@
 	<content contentuid="h8342a5e20d924f98a0044735fcd2a4277f5d" version="1">Alloy</content>
 	<content contentuid="h2d3973474bec4005af18938a09c7122ca39f" version="1">This material can be used to improve firearms.</content>
 	<content contentuid="hb1cf0798f3bf41b9851deef2eadc12d82f07" version="1">Mixed Adamantine</content>
-	<content contentuid="hd1adc04094264e628fce03e5bd096a642814" version="1">A rare and formidable blend of pure adamantine with other metals, this alloy boasts the legendary durability of adamantine while incorporating additional qualities depending on its composition. Favored by master artisans and spellcasters alike, this alloy is used to craft weapons and armor that strike a perfect balance between raw strength and specialized capabilities, making every piece both a masterpiece and a practical marvel.</content>
-	<content contentuid="hb1fc3caaff5e4bbf85ee0bd06f73e06d41d6" version="1">Silver alloy</content>
+	<content contentuid="hd1adc04094264e628fce03e5bd096a642814" version="1">A rare and formidable blend of pure adamantine with other metals, this alloy boasts the legendary durability of adamantine while incorporating additional qualities depending on its composition. Favored by master artisans and spellcasters alike, it is used to craft weapons and armor that strike a perfect balance between raw strength and specialized capabilities, making every piece both a masterpiece and a practical marvel.</content>
+	<content contentuid="hb1fc3caaff5e4bbf85ee0bd06f73e06d41d6" version="1">Silver Alloy</content>
 	<content contentuid="h9afb43e054454b568b9463222b3f9443d7g0" version="1">A sleek, polished metal blend predominantly composed of silver, with traces of other metals to increase its durability and conductivity. This alloy shines with a soft, silvery luminosity that almost seems to shimmer with a faint internal glow.</content>
 	<content contentuid="hf180b3c3b984470a98b16721ee33d3bd888c" version="1">Musket</content>
 	<content contentuid="h16eb2966208447609f43970d0c8d3c879d25" version="1">Musket +1</content>
 	<content contentuid="hc810809c2a8a47759e12218aedc3563477b0" version="1">Musket +2</content>
-	<content contentuid="hcae5850c49e146df844347ede43af3f7dcf1" version="1">Diary of Firearm blacksmith</content>
-	<content contentuid="hc128c71baa044f9da47e63d5d6e09d137cge" version="1">Worn diary covered in blood, most of the pages are missing.</content>
+	<content contentuid="hcae5850c49e146df844347ede43af3f7dcf1" version="1">Diary of Firearm Blacksmith</content>
+	<content contentuid="hc128c71baa044f9da47e63d5d6e09d137cge" version="1">A worn diary covered in blood, with most of the pages missing.</content>
 	<content contentuid="h457e4699e73c45129ead27f35b301d53ga5d" version="1">Hellfire Musket</content>
-	<content contentuid="hff6f43522d8149e6a947377030121d144a80" version="1">Hell fire</content>
-	<content contentuid="hbda418c7b5e544ae98feaa8dd0a2993439bc" version="1">Ignited with hell fire. Power of the flames increases, the longer they last. </content>
-	<content contentuid="h473fe1e9b62e4e55bf26c8d0d8f7ee7937c1" version="1">Overheat firearm</content>
-	<content contentuid="h315d770756bf4acfbcec9f1e52e014693b12" version="1">Increase the temperature of your weapon. Your attacks make targets burn with &lt;LSTag Type="Status" Tooltip="MARA_GORTASH_SNIPER_BURN"&gt;Hell fire&lt;/LSTag&gt;. You also gain 2 turns of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt;, whenever you deal damage with this weapon. </content>
-	<content contentuid="h6e14d0af00b24f35a154d0b96e68a1b067d4" version="1">Missfire</content>
-	<content contentuid="he84edbeb69df4c939af10bdf09d10c4966ga" version="1">Your weapon has malfunctioned. It cannot fire until the start of next turn.</content>
-	<content contentuid="hbcd54bab7fac4807bf9d2b8f3b9b9b79470b" version="1">This weapon will use &lt;LSTag Tooltip="AbilityModifier"&gt;Strength&lt;/LSTag&gt; instead of &lt;LSTag Tooltip="AbilityModifier"&gt;Dexterity&lt;/LSTag&gt; for attack rolls, if it is higher.</content>
-	<content contentuid="hd01c275af7e04444a584316711f52dc40ca8" version="1">High recoil</content>
-	<content contentuid="h7334f5e8faac48ee98a230228008df1bf353" version="1">Axe head on this weapon allows it to be a great throwing weapon.</content>
-	<content contentuid="h1138118bce9b41628c10a095c9fbbb6b4776" version="1">Axe head Blunderbuss</content>
-	<content contentuid="hb8aea21adee144cbb934ac1a80751132g6c8" version="1">Special assemble increases firepower of this weapon. It deals [1] instead of usual type.</content>
-	<content contentuid="h122111fdc2b742e6961bb64047581d479d46" version="1">Forceful strikes</content>
+	<content contentuid="hff6f43522d8149e6a947377030121d144a80" version="1">HellFire</content>
+	<content contentuid="hbda418c7b5e544ae98feaa8dd0a2993439bc" version="1">Ignited with hellfire. The power of the flames increase the longer they last. </content>
+	<content contentuid="h473fe1e9b62e4e55bf26c8d0d8f7ee7937c1" version="1">Overheat Firearm</content>
+	<content contentuid="h315d770756bf4acfbcec9f1e52e014693b12" version="1">Increase the temperature of your weapon. Your attacks make targets burn with &lt;LSTag Type="Status" Tooltip="MARA_GORTASH_SNIPER_BURN"&gt;Hellfire&lt;/LSTag&gt;. You also gain 2 turns of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt;, whenever you deal damage with this weapon.</content>
+	<content contentuid="h6e14d0af00b24f35a154d0b96e68a1b067d4" version="1">Misfire</content>
+	<content contentuid="he84edbeb69df4c939af10bdf09d10c4966ga" version="1">Your weapon has malfunctioned. It cannot fire until the start of your next turn.</content>
+	<content contentuid="hbcd54bab7fac4807bf9d2b8f3b9b9b79470b" version="1">This weapon will use &lt;LSTag Tooltip="AbilityModifier"&gt;Strength&lt;/LSTag&gt; instead of &lt;LSTag Tooltip="AbilityModifier"&gt;Dexterity&lt;/LSTag&gt; for &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; if it is higher.</content>
+	<content contentuid="hd01c275af7e04444a584316711f52dc40ca8" version="1">High Recoil</content>
+	<content contentuid="h7334f5e8faac48ee98a230228008df1bf353" version="1">The axe head on this weapon allows it to be a great throwing weapon.</content>
+	<content contentuid="h1138118bce9b41628c10a095c9fbbb6b4776" version="1">Axe Head Blunderbuss</content>
+	<content contentuid="hb8aea21adee144cbb934ac1a80751132g6c8" version="1">The weapon's special assembly increases its firepower. It deals [1] instead of its usual type.</content>
+	<content contentuid="h122111fdc2b742e6961bb64047581d479d46" version="1">Forceful Strikes</content>
 	<content contentuid="h431431f45a9a478f9ab451883cf87343g6c5" version="1">Firepower</content>
-	<content contentuid="h98d58dae2fa64559ae50e0a16be5fe0c9f2b" version="1">This weapon can be magically &lt;LSTag Type="Spell" Tooltip="Mara_Overheat_GortashSniper"&gt;overheated&lt;/LSTag&gt;, increasing it's &lt;LSTag Type="ActionResource" Tooltip="MusketAmmo"&gt;ammo capacity&lt;/LSTag&gt; and making shots ignited.</content>
-	<content contentuid="h6d59b2f2e36644469f33cc9454cb89887005" version="1">This weapon have a second barrel which shoot magical balls. It deals additional [1] on attacks.</content>
-	<content contentuid="h950dbac2078248d5aea790df9f84254c7402" version="1">Magical barrel</content>
-	<content contentuid="h5318ba289a034a23a79701e06de77d65dfb8" version="1">This weapon can &lt;LSTag Type="Status" Tooltip="MARA_MALFUNCTION"&gt;Missfire&lt;/LSTag&gt;, when you score a &lt;LSTag Tooltip="CriticalMiss"&gt;critical miss&lt;/LSTag&gt; on attack rolls.</content>
-	<content contentuid="hdcb9a3ea33a64f589b3114b9b965b26c8c5f" version="1">Missfire</content>
-	<content contentuid="h420a15fce8be452188a3090ac05efde646cb" version="1">This weapon attacks also hit creatures in front of you for [1].</content>
-	<content contentuid="he372cfbe906a4cce81d8ba5d822f26f0e402" version="1">Scatter shot</content>
-	<content contentuid="h8b1fb58660b4428a847534430560a5d140d2" version="1">Make your shot fully scattered, spreading the damage in a longer cone, leaving no chance to evade.</content>
+	<content contentuid="h98d58dae2fa64559ae50e0a16be5fe0c9f2b" version="1">This weapon can be magically &lt;LSTag Type="Spell" Tooltip="Mara_Overheat_GortashSniper"&gt;overheated&lt;/LSTag&gt;, increasing it's &lt;LSTag Type="ActionResource" Tooltip="MusketAmmo"&gt;ammo capacity&lt;/LSTag&gt; and making shots ignite.</content>
+	<content contentuid="h6d59b2f2e36644469f33cc9454cb89887005" version="1">This weapon has a second barrel which shoot magical balls. It deals additional [1] on attacks.</content>
+	<content contentuid="h950dbac2078248d5aea790df9f84254c7402" version="1">Magical Barrel</content>
+	<content contentuid="h5318ba289a034a23a79701e06de77d65dfb8" version="1">This weapon can &lt;LSTag Type="Status" Tooltip="MARA_MALFUNCTION"&gt;Misfire&lt;/LSTag&gt; when you score a &lt;LSTag Tooltip="CriticalMiss"&gt;Critical Miss&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
+	<content contentuid="hdcb9a3ea33a64f589b3114b9b965b26c8c5f" version="1">Misfire</content>
+	<content contentuid="h420a15fce8be452188a3090ac05efde646cb" version="1">This weapon's attacks also hit creatures in front of you for [1].</content>
+	<content contentuid="he372cfbe906a4cce81d8ba5d822f26f0e402" version="1">Scattershot</content>
+	<content contentuid="h8b1fb58660b4428a847534430560a5d140d2" version="1">Make your shot fully scattered, spreading the damage in a longer cone and leaving no chance to evade it.</content>
 	<content contentuid="h1699213a6f194fa6ac028aaf1119707e2162" version="1">Precise</content>
-	<content contentuid="h691a4d59f41f4427978220a7c85d3cc70921" version="1">Make a precise attack. Gain a bonus to &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt; and &lt;LSTag Type="Damage"&gt;damage&lt;/LSTag&gt; rolls equal to your proficiency bonus on next attack.</content>
+	<content contentuid="h691a4d59f41f4427978220a7c85d3cc70921" version="1">Make a precise attack. Gain a bonus to &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt; and &lt;LSTag Type="Damage"&gt;damage&lt;/LSTag&gt; rolls equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; on your next attack.</content>
 	<content contentuid="h90eac195ce054796b1ade2c667b99dceegaa" version="1">Precised</content>
 	<content contentuid="h08e64ebdb70349b8862386be8f62db80a90g" version="1">Your next attack is made with extreme precision. Gained a bonus to &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt; and &lt;LSTag Type="Damage"&gt;damage&lt;/LSTag&gt; rolls equal to proficiency bonus on next attack.</content>
-	<content contentuid="hdb5d21b859214bef87372ff3b901eaa7cf98" version="1">Reckless reload</content>
+	<content contentuid="hdb5d21b859214bef87372ff3b901eaa7cf98" version="1">Reckless Reload</content>
 	<content contentuid="h621af9ae545f4b8da48885e1216678342f7b" version="1">Stand still reloading your firearm. This action will consume all your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; for this turn.</content>
 	<content contentuid="hd3698df84b144f70b477d21d13a2074914e7" version="1">This broad-mouthed, brass-cast firearm resembles a short, wide tube with a flared barrel designed to unleash a spray of projectiles. When fired, the blunderbuss emits a thunderous blast, scattering shrapnel in a cone that covers a wide area at close range. Its intimidating appearance and loud report make it both a practical and fearsome firearm.</content> 
 	<content contentuid="hca108b480557468da68c781a54085093a5be" version="1">Ever wonder what happens if you mash a battle axe and a blunderbuss together? Well, here’s your answer. The Axehead Blunderbuss is a ridiculous firearm that looks like a savage barbarians’s dream—and possibly a nightmare for anyone caught in its spray.</content> 
@@ -77,4 +77,5 @@
 	<content contentuid="hf7ade17af6e1465ea6fb6829f80523fb9979" version="1">This heavy, ornate firearm features a long barrel carved with intricate patterns and a finely crafted flintlock ignition system. When fired, it unleashes a devastating bolt of lead. Its smoke-belching shot can turn the tide of combat, providing a dramatic and powerful alternative to traditional bows and crossbows.</content>
 	<content contentuid="hdca7256d34b5454fa08af5cade312f9708bc" version="1">&lt;b&gt;Journal Entry of Droo Thrain&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Date: 1492 DR&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Today, I set out from the forge at dawn, bound for Last Light Inn. Rumors tell I can easily find trader there with materials I’ve yet to acquire for my next firearm. It’s a journey through treacherous woods, but the promise of unique components drives me forward. I hope the innkeeper can provide shelter and perhaps a bit of news from the Baldur's Gate.&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Once I’ve gathered what I need, I will continue to Baldur's Gate to the Forge of the Nine. Their master smiths are said to craft the finest enchanted alloys, perfect for my greatest firearm. I must ensure I don’t miss my chance; their supplies are rare and highly sought after.&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;May the flame guide my path, and the anvils await the clang of my hammer.</content>
 </contentList>
+
 
